@@ -3,7 +3,7 @@ import socket
 
 def client_program():
     host = '10.153.3.191'
-    port = 7734
+    port = 5557
 
     client_socket = socket.socket()
     client_socket.connect((host, port))
